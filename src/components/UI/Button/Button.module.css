@@ -1,0 +1,25 @@
+.Button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  font: inherit;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.Success {
+  color: #5c9210;
+}
+
+.Close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url('../../../assets/images/menu-close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+}

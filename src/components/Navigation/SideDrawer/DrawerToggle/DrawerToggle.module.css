@@ -1,0 +1,14 @@
+.DrawerToggle {
+  width: 36px;
+  height: 36px;
+  background-image: url('../../../../assets/images/menu-burger.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px;
+}
+
+@media (min-width: 500px) {
+  .DrawerToggle {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #703b09;
+}
+
+.Toolbar {
+  display: flex;
+  height: 56px;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Toolbar nav {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .Toolbar nav {
+    display: block;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .Toolbar {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Toolbar {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Toolbar {
+    width: 1100px;
+    margin: 0 auto;
+  }
+}
